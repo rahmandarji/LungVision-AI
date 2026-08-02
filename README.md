@@ -1,49 +1,52 @@
 # 🫁 LungVision-AI
 
-An end-to-end Deep Learning project for detecting **Pneumonia** from pediatric chest X-ray images using **Transfer Learning with ResNet18** and **PyTorch**.
+An end-to-end Deep Learning project that detects **Pneumonia** from pediatric chest X-ray images using **Transfer Learning with ResNet18** and **PyTorch**.
 
-This project was built to gain hands-on experience with the complete Deep Learning workflow—from preprocessing medical images and training a convolutional neural network to deploying the model as an interactive web application.
+> This project was built to gain practical experience with the complete Computer Vision workflow—from data preprocessing and model training to deployment as an interactive web application.
 
 ---
 
 # 🚀 Live Demo
 
-https://lungvision-ai-gabksershqno8fndaxk6pj.streamlit.app
+**Try the application here:**
+
+🔗 https://lungvision-ai-gabksershqno8fndaxk6pj.streamlit.app
 
 ---
 
-# 🎯 Project Objective
+# 🎯 Project Goal
 
-The objective of this project was to understand and implement an end-to-end Computer Vision pipeline.
+The goal of this project was to understand and implement an end-to-end Deep Learning pipeline for medical image classification.
 
-Instead of only training a model, the project focuses on the complete machine learning lifecycle:
+Rather than only training a model, this project covers the complete workflow:
 
-- Data preprocessing
-- Image augmentation
+- Image preprocessing
+- Data augmentation
 - Transfer Learning
 - Model training
 - Model evaluation
-- Deployment using Streamlit
-- Version control using Git
+- Model deployment
+- Version control with Git
 - Large model management using Git LFS
 
 ---
 
 # 🧠 What I Learned
 
-Through this project I gained practical experience with:
+Building this project helped me gain practical experience with:
 
-- Building image classification models using PyTorch
-- Transfer Learning with ResNet18
-- Medical image preprocessing
-- Data augmentation
+- Transfer Learning using ResNet18
+- Image preprocessing with Torchvision
+- Data augmentation techniques
+- Binary image classification
+- BCEWithLogitsLoss
 - Batch Normalization
 - Dropout
-- BCEWithLogitsLoss
 - Early Stopping
 - Model evaluation
-- Saving and loading trained models
-- Deploying Deep Learning applications using Streamlit
+- Saving and loading trained PyTorch models
+- Building an interactive Streamlit application
+- Deploying Deep Learning applications
 - Managing large model files using Git LFS
 - Debugging deployment and dependency issues
 
@@ -55,8 +58,8 @@ Through this project I gained practical experience with:
 - PyTorch
 - Torchvision
 - Streamlit
-- Pillow
 - NumPy
+- Pillow
 - Git
 - Git LFS
 
@@ -64,15 +67,15 @@ Through this project I gained practical experience with:
 
 # 📷 Application Preview
 
-## Upload Chest X-ray
+## Upload & Prediction
 
-![Upload](images/Prediction.png)
+![Application](Images/Prediction.png)
 
 ---
 
-## Prediction & Confidence
+## Confidence Score
 
-![Prediction](images/Confidence.png)
+![Confidence](Images/Confidence.png)
 
 ---
 
@@ -80,34 +83,28 @@ Through this project I gained practical experience with:
 
 ## Normal Chest X-ray
 
-![Normal](images/Normal.jpeg)
+![Normal](Images/Normal.jpeg)
 
-Prediction:
-
-✅ Normal
+**Prediction:** ✅ Normal
 
 ---
 
 ## Pneumonia Chest X-ray
 
-![Pneumonia](images/Pneumonia.jpeg)
+![Pneumonia](Images/Pneumonia.jpeg)
 
-Prediction:
+**Prediction:** 🦠 Pneumonia
 
-🦠 Pneumonia
-
-Confidence:
-
-**99.11%**
+**Confidence:** **99.11%**
 
 ---
 
 # 📂 Project Structure
 
 ```text
-LungVision-AI/
-
-│── images/
+LungVision-AI
+│
+├── Images
 │   ├── Prediction.png
 │   ├── Confidence.png
 │   ├── Normal.jpeg
@@ -121,15 +118,21 @@ LungVision-AI/
 
 ---
 
-# ⚙️ Running the Project
+# ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LungVision-AI.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/LungVision-AI.git
 ```
 
-Install dependencies
+Move into the project directory
+
+```bash
+cd LungVision-AI
+```
+
+Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -140,24 +143,27 @@ Run the application
 ```bash
 streamlit run computer_vision.py
 ```
+
+---
+
 # 📌 Future Improvements
 
-- Support additional chest diseases
-- Add Grad-CAM visualization for model explainability
-- Improve calibration of prediction confidence
-- Train and compare multiple CNN architectures (EfficientNet, DenseNet, Vision Transformer)
-- Containerize the application with Docker
+- Train and compare multiple CNN architectures
+- Add Grad-CAM for model explainability
+- Improve confidence calibration
+- Support additional lung diseases
+- Containerize the application using Docker
 
 ---
 
 # ⚠️ Disclaimer
 
-This application is intended for educational purposes only and should **not** be used as a substitute for professional medical diagnosis or clinical decision-making.
+This application is intended for **educational purposes only** and should **not** be used as a substitute for professional medical diagnosis or clinical decision-making.
 
 ---
 
 # 👨‍💻 Author
 
-Rahman Darji
+**Rahman**
 
-Machine Learning • Deep Learning • Computer Vision
+I am focused on building practical Machine Learning and Deep Learning applications while continuously strengthening deployment skills.
