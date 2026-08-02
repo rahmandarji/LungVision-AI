@@ -31,7 +31,7 @@ Rather than only training a model, this project covers the complete workflow:
 
 ---
 
-# 🧠 What I Learned
+# skills demonstrated 
 
 Building this project helped me gain practical experience with:
 
